@@ -14,7 +14,7 @@ function obtenerMayor(x, y) {
 }
 
 
-function mayoriaDeEdad(edad) {
+function mayoriaDeEdad(edad){
    // Determinar si la persona puede ingresar al evento según su edad.
    // Si tiene 18 años ó más debe retornar el string: "Allowed".
    // Caso contrario: "Not allowed".
@@ -41,7 +41,7 @@ function conection(status)  {
          return "Not Allowed";
       }
    }
-}
+
 function saludo(idioma) {
    // Retornar un saludo en tres diferentes lenguajes:
    // Si "idioma" es "aleman", devuelve "Guten Tag!".
@@ -200,7 +200,7 @@ function doWhile(num) {
       let contador = 0;  
       do {
         num += 5;  
-        contador++;  .
+        contador++;  
       } while (contador < 8); 
       
       return num; 
