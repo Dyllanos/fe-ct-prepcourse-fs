@@ -13,7 +13,7 @@ function esPositivo(num) {
    } else if (num < 0) {
       return "Es negativo";
    } else {
-      return "false";
+      return false;
    }
 }
 
@@ -35,39 +35,47 @@ function obtenerSaludo(nombre) {
    // Toma el string "nombre" y concatena otra string en la cadena para que tome la siguiente forma:
    // Ejemplo: "Martin" ---> "Hola Martin!"
    // Tu código:
-   return "Hola" +' '+ nombre;
+   return "Hola " + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
    // Retornar el área de un rectángulo teniendo su altura y ancho.
    // Tu código:
-   return (alto * ancho);
+   var resultado;
+   resultado = alto * ancho;
+   return resultado;
 }
 
 function retornarPerimetro(lado) {
    // La función recibe como argumento la medida de un lado de un cuadrado.
    // Debes retornar su perímetro.
    // Tu código:
-   return (lado * 4);
+   var resultado;
+   resultado = lado * 4;
+   return resultado;
 }
 
 function areaDelTriangulo(base, altura) {
    // Calcula el área de un triángulo y retorna el resultado.
    // Tu código:
-   return  ( base * altura) / 2;
+   var resultado;
+   resultado = (base * altura) / 2; 
+   return resultado;
 }
 
 function deEuroAdolar(euro) {
    // Supongamos que 1 euro equivale a 1.20 dólares.
    // Debes calcular el valor recibido como argumento pasándolo a dolares.
    // Tu código:
-   return euro * 1.20;
+   var dolares;
+   dolares = euro * 1.20
+   return dolares;
 }
 
 function esVocal(letra) {
    // Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
    // Si el usuario ingresa un string de más de un caracter debes retornar el mensaje: "Dato incorrecto".
-   // Si no es vocal, tambien debe retornar "Dato incorrecto".
+   // Si no es vocal, tambien debe retornar "Dato incorrecto"
    // Tu código:
   
    if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
