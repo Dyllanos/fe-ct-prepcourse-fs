@@ -100,7 +100,7 @@ git add .
 git commit -m "tuMensaje"
 // Este comando te permitirá darle un título a tus cambios.
 
-git push
+git pushff
 // Este comando subirá tus cambios al repositorio de GitHub.
 ```
 
